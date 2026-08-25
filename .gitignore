@@ -1,0 +1,18 @@
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# secrets - UCM credentials, gateway API keys, download signing secret
+.env
+
+# runtime artefacts - server only
+gateway.pid
+gateway_audit.log
+gateway_audit.log.*
+/temp_downloads/
+*.lnk
+
+# agent scratch
+.claude/
